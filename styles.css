@@ -1,0 +1,53 @@
+#container{
+    position: absolute;
+    left: 30%;
+}
+
+.spacer { 
+    position: relative;
+    height: 1em;
+}
+
+
+div[id^="tn-"] {
+    position: relative;
+    height: 1em;
+    width: 10em;
+    background-size: 400px;
+    background-position: left;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    -webkit-filter: grayscale(100%);
+    -webkit-transition: -webkit-filter 2500ms;
+    z-index: 2;
+    
+}
+
+#tn-one {
+    background-color: teal;
+    
+}
+#tn-two {
+    background-color: maroon;
+    
+}
+#tn-three {
+    background-color: lightgoldenrodyellow;
+    
+}
+#tn-four {
+    background-color: crimson;
+    
+}
+#tn-five {
+    background-color: cornflowerblue;
+    
+}
+#container div.allowHover:hover{
+        -webkit-filter: grayscale(0%);
+        cursor: pointer;
+}
+
+.frontgraph {
+    background-image: url(linez.gif)
+}
